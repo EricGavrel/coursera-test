@@ -33,6 +33,7 @@ p{
 
 div{
 	margin-top: 40px;
+	background-color: #839AEF;
 
 }
 
@@ -45,29 +46,7 @@ div div h2{
 	width: 100%;
 }
 
-/*.menu1{
-	width: 30%;
-	margin: 20px 0px 0px 5px;
-	background-color: green;
-	overflow: auto;
-	position: relative;
-}
 
-.menu2{
-	width: 30%;
-	margin: 20px 0px 0px 5px;
-	background-color: green;
-	overflow: auto;
-	position: relative;
-}
-
-.menu3{
-	width: 30%;
-	margin: 20px 0px 0px 5px;
-	background-color: green;
-	position: relative;
-}
-*/
 
 /***** Large device > 992 px  *****/
 @media (min-width: 992px){
