@@ -19,6 +19,7 @@ h1{
 }
 h2{
 	font-size: 2em;
+
 }
 
 p{
@@ -29,17 +30,21 @@ p{
 	font-size: 1.1em;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
-div{
-	margin-top: 40px;
+section{
+	margin-top: 70px;
 	background-color: #839AEF;
+	border: 1px solid black;
 
 }
 
-div div h2{
+section h2{
 	text-align: right;
 	padding-right: 5px;
+	border: 1px solid black;
+
 }
 
 .row{
@@ -50,51 +55,111 @@ div div h2{
 
 /***** Large device > 992 px  *****/
 @media (min-width: 992px){
-	.col-lg-1, .col-lg-2, .col-lg-3 {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, 
+	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+
 		float: left;
-		margin-left: 14px;
-		padding: 10px;
-		overflow: auto;
 		border: 1px solid black;
+		overflow: auto;
+		margin-left: 60px;
+
 	}
 
 	.col-lg-1 {
-		width: 32%;
+		width: 28%;
 	}
 
 	.col-lg-2 {
-		width: 32%;
+		width: 28%;
 	}
 	.col-lg-3 {
-		width: 32%;
+		width: 28%;		
 	}
-
-
+	.col-lg-4 {
+		width: 28%;	
+	}
+	.col-lg-5 {
+		width: 28%;	
+	}
+	.col-lg-6 {
+		width: 28%;	
+	}
+	.col-lg-7 {
+		width: 28%;	
+	}
+	.col-lg-8 {
+		width: 28%;	
+	}
+	.col-lg-9 {
+		width: 28%;	
+	}
+	.col-lg-10 {
+		width: 28%;	
+	}
+	.col-lg-11 {
+		width: 28%;	
+	}
+	.col-lg-12 {
+		width: 28%;	
+	}
 
 }
 /***** Medium device  768 => 991 px  *****/
 
 @media (min-width: 768px) and (max-width: 991px){
 
-	.col-lg-1, .col-lg-2, .col-lg-3 {
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
+	.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+
 		float: left;
-		margin-left: 14px;
-		padding: 10px;
-		overflow: auto;
 		border: 1px solid black;
-	}
-
-	.col-lg-1 {
-		width: 25%;
-	}
-
-	.col-lg-2 {
-		width: 25%;
-	}
-	.col-lg-3 {
-		width: 10%;
 
 	}
+	.col-md-1 {
+		width: 45%;
+	}
+
+	.col-md-2 {
+		width: 45%;
+	}
+	.col-md-3 {
+		width: 45%;		
+	}
+	.col-md-4 {
+		width: 45%;	
+	}
+	.col-md-5 {
+		width: 45%;	
+	}
+	.col-md-6 {
+		width: 45%;	
+	}
+	.col-md-7 {
+		width: 80%;	
+	}
+	.col-md-8 {
+		width: 80%;	
+	}
+	.col-md-9 {
+		width: 80%;	
+	}
+	.col-md-10 {
+		width: 80%;	
+	}
+	.col-md-11 {
+		width: 80%;	
+	}
+	.col-md-12 {
+		width: 80%;	
+	}
+section h2 {
+	margin-left: 40%;
+
+}
+section {
+	margin-left: 30px;
+}
+
 
 
 }
@@ -103,21 +168,21 @@ div div h2{
 @media (max-width: 767px){
 
 	.col-lg-1, .col-lg-2, .col-lg-3 {
-		margin-left: 80px; 
+
 		padding: 10px;
 		overflow: auto;
 		border: 1px solid black;
 	}
 
 	.col-lg-1 {
-		width: 70%;
+		width: 30%;
 	}
 
 	.col-lg-2 {
-		width: 70%;
+		width: 30%;
 	}
 	.col-lg-3 {
-		width: 70%;
+		width: 30%;
 	}
 
 
